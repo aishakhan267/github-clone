@@ -1,0 +1,108 @@
+.enter {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px;
+    margin: 0 82px; */
+  }
+  .innerEnter{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 82px;
+  }
+  .innerEnter> h2{
+      /* color: #8d7d74; */
+      margin: 0;
+  }
+  .innerEnter> p{
+      color: rgb(114, 112, 112);
+  }
+  .innerEnter>button {
+    background-color: #1074e7;
+    color: #ffffff; 
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding:16px 24px;
+    border-radius: 4px;
+    margin-bottom:16px;
+  }
+  .innerEnter>a {
+    color: #0366d6;
+    text-decoration-color:transparent;
+    
+  }
+  .innerEnter>a:hover{
+    text-decoration-color:#0366d6;
+  }
+  .outerActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .actions {
+    background: url(https://github.githubassets.com/images/modules/site/iso-ui.jpg) center left no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:96px 40px;
+    margin:0 40px;
+    border-radius: 6px;
+  }
+  .actions > h2{
+    color: #ffffff;
+  }
+  .actions > p {
+    color:rgb(182, 179, 179);
+    margin:8px 150px 32px 150px;
+    text-align: center;
+  }
+  .actions > button >a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .actions > button {
+    background: transparent;
+    border: 1px solid #144074;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding:18px 26px;
+    border-radius: 4px;
+  }
+  .actions > button:hover {
+    border: 1px solid #0366d6; 
+  }
+  @media screen and(max-width:1010px){
+    .enter > h2{
+      font-size: 23px;
+      text-align: center;
+    }
+    .actions>p{
+      margin: 8px 0 32px 0;
+    }
+    .actions>h2{
+      text-align: center;
+    }
+  }
+  @media screen and(max-width:767px){
+    .enter > p{
+      text-align: center;
+    }
+    .enter >button{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:543px){
+    .enter{
+      margin: 0;
+    }
+
+  }

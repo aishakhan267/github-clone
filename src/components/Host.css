@@ -1,0 +1,41 @@
+.host{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+.innerHost{
+    display: flex;
+    padding: 32px 24px;
+    border: 1px solid rgb(226, 222, 222);
+    width: 571px;
+    border-radius: 4px;
+}
+.hostDetail{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+.hostDetail>h3{
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin: 0;
+    
+}
+.hostDetail>p{
+    font-size: 15px;
+    color: gray;
+    margin-top:5px;
+}
+.hostImg{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:767px){
+    .innerHost{
+        width: 100%;
+        margin: 0 20px;
+    }
+
+}

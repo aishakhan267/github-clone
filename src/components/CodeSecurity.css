@@ -1,0 +1,48 @@
+.CodeSecurity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 268px;
+}
+.innerCodeSecurity{
+    padding: 40px;
+}
+.innerCodeSecurity>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.innerCodeSecurity>ul>li>h3{
+    color: rgb(77, 77, 77);
+}
+.innerCodeSecurity>ul>li>p{
+    font-size: 14px;
+    margin-bottom: 32px;
+    color: gray;
+}
+.verifiedImg>img{
+    width: 458px;
+    height: 284px;
+}
+@media screen and (max-width:1010px){
+    .CodeSecurity{
+        margin: 30px 15px;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:767px){
+    .verifiedImg>img{
+        width:392px;
+        height: 243px;
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:543px){
+    .verifiedImg>img{
+    width:270px;
+    height:180px;
+    margin: 0 20px;
+    }
+}
